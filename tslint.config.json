@@ -1,5 +1,5 @@
 {
-  "rulesDirectory": ["node_modules/tslint-microsoft-contrib"],
+  "rulesDirectory": ["tslint-microsoft-contrib"],
   "rules": {
     "chai-prefer-contains-to-index-of": true,
     "chai-vague-errors": true,
