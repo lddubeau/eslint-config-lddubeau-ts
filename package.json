@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lddubeau-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint configuration for TypeScript.",
   "main": "index.js",
   "scripts": {
