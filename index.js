@@ -26,6 +26,9 @@ module.exports = {
     // The stock rule does not work correctly with TS code. We turned on
     // the TS-specific rule below.
     "no-useless-constructor": "off",
+    // The stock rule does not work correctly with TS code. The TS-specific
+    // rule is turned on below.
+    "no-empty-function": "off",
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/array-type": "off",
     "@typescript-eslint/ban-types": "error",
