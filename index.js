@@ -23,6 +23,9 @@ module.exports = {
     "strict": ["error", "never"],
     // The stock rule does not work correctly in TS code.
     "no-unused-vars": "off",
+    // The stock rule does not work correctly with TS code. We turned on
+    // the TS-specific rule below.
+    "no-useless-constructor": "off",
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/array-type": "off",
     "@typescript-eslint/ban-types": "error",
@@ -90,6 +93,7 @@ module.exports = {
     "@typescript-eslint/no-namespace": "error",
     "@typescript-eslint/no-parameter-properties": "off",
     "@typescript-eslint/no-this-alias": "error",
+    "@typescript-eslint/no-useless-constructor": "error",
     "@typescript-eslint/no-var-requires": "error",
     "@typescript-eslint/prefer-for-of": "error",
     "@typescript-eslint/prefer-function-type": "error",
