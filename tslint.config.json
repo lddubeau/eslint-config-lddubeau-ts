@@ -2,7 +2,14 @@
   "rulesDirectory": ["tslint-microsoft-contrib"],
   "rules": {
     "chai-prefer-contains-to-index-of": true,
-    "chai-vague-errors": true,
+    "chai-vague-errors": [
+      false,
+      "It seems to me this rule has gotten stricter and stricter over time.",
+      "While I agree with the general sentiment, it has gotten to the point of",
+      "utter uselessness now. Most of my Mocha tests are narrow enough that the",
+      "test title tells you what the problem is. Screaming about vague chai",
+      "errors is not helpful."
+    ],
     "import-name": [false, "Crashes."],
     "import-spacing": true,
     "informative-docs": true,
