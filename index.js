@@ -29,6 +29,10 @@ module.exports = {
     // The stock rule does not work correctly with TS code. The TS-specific
     // rule is turned on below.
     "no-empty-function": "off",
+    // Does not handle overloads well.
+    "no-dupe-class-members": "off",
+    // The stock rule does not work correctly with TS code.
+    "space-before-function-paren": "off",
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/array-type": "off",
     "@typescript-eslint/ban-types": "error",
@@ -109,6 +113,7 @@ module.exports = {
       "error",
       "always",
     ],
+    "@typescript-eslint/space-before-function-paren": "error",
     "@typescript-eslint/strict-boolean-expressions": "error",
     "@typescript-eslint/triple-slash-reference": "error",
     "@typescript-eslint/type-annotation-spacing": "error",
