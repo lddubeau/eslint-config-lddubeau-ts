@@ -113,7 +113,7 @@ module.exports = {
       "error",
       "always",
     ],
-    "@typescript-eslint/space-before-function-paren": "error",
+    "@typescript-eslint/space-before-function-paren": ["error", "never"],
     "@typescript-eslint/strict-boolean-expressions": "error",
     "@typescript-eslint/triple-slash-reference": "error",
     "@typescript-eslint/type-annotation-spacing": "error",
