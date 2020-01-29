@@ -29,6 +29,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prefer-arrow": "^1.1.7",
     "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-simple-import-sort": "^5.0.1",
     "tslint-microsoft-contrib": "^6.2.0",
     "tslint": "^5.20.1"
   },
@@ -42,10 +43,11 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prefer-arrow": "^1.1.7",
     "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-simple-import-sort": "^5.0.1",
     "pre-commit": "^1.2.2",
     "renovate-config-lddubeau": "^1.0.0",
-    "tslint-microsoft-contrib": "^6.2.0",
     "tslint": "^5.20.1",
+    "tslint-microsoft-contrib": "^6.2.0",
     "typescript": "^3.7.5"
   },
   "pre-commit": [
