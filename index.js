@@ -33,6 +33,9 @@ module.exports = {
     "no-dupe-class-members": "off",
     // The stock rule does not work correctly with TS code.
     "space-before-function-paren": "off",
+    // Complains about issues that are not real issues in TS. The TS compiler
+    // catches this anyway.
+    "no-undef": "off",
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/array-type": "off",
     "@typescript-eslint/ban-types": "error",
