@@ -36,6 +36,8 @@ module.exports = {
     // Complains about issues that are not real issues in TS. The TS compiler
     // catches this anyway.
     "no-undef": "off",
+    // Duplicates a specialized TS rule.
+    "no-use-before-define": "off",
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/array-type": "off",
     "@typescript-eslint/ban-types": "error",
@@ -87,6 +89,7 @@ module.exports = {
       },
     ],
     "@typescript-eslint/member-ordering": "off",
+    "@typescript-eslint/no-dynamic-delete": "error",
     "@typescript-eslint/no-empty-function": "error",
     "@typescript-eslint/no-empty-interface": "error",
     "@typescript-eslint/no-explicit-any": "error",
@@ -124,6 +127,12 @@ module.exports = {
     "@typescript-eslint/strict-boolean-expressions": "error",
     "@typescript-eslint/triple-slash-reference": "error",
     "@typescript-eslint/type-annotation-spacing": "error",
+    "@typescript-eslint/typedef": ["error", {
+      arrowParameter: false,
+      parameter: true,
+      propertyDeclaration: true,
+      memberVariableDeclaration: true,
+    }],
     "@typescript-eslint/unified-signatures": "error",
     "@typescript-eslint/tslint/config": [
       "error",

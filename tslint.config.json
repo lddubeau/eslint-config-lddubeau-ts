@@ -2,59 +2,27 @@
   "rulesDirectory": ["tslint-microsoft-contrib"],
   "rules": {
     "chai-prefer-contains-to-index-of": true,
-    "chai-vague-errors": [
-      false,
-      "It seems to me this rule has gotten stricter and stricter over time.",
-      "While I agree with the general sentiment, it has gotten to the point of",
-      "utter uselessness now. Most of my Mocha tests are narrow enough that the",
-      "test title tells you what the problem is. Screaming about vague chai",
-      "errors is not helpful."
-    ],
-    "import-name": [false, "Crashes."],
-    "import-spacing": true,
     "informative-docs": true,
     "insecure-random": true,
-    "jquery-deferred-must-complete": true,
     "jsdoc-format": true,
-    "max-func-body-length": [
-      true,
-      100,
-      {
-        "ignore-parameters-to-function-regex": "^describe$"
-      }
-    ],
     "mocha-avoid-only": true,
     "mocha-no-side-effect-code": true,
     "mocha-unneeded-done": true,
-    "no-backbone-get-set-outside-model": true,
     "no-cookies": true,
-    "no-delete-expression": true,
-    "no-disable-auto-sanitization": true,
     "no-document-domain": true,
     "no-document-write": true,
     "no-exec-script": true,
-    "no-http-string": [
-      true,
-      "http://www.example.com/?.*",
-      "http://localhost:?.*"
-    ],
     "no-inner-html": true,
     "no-jquery-raw-elements": true,
     "no-reference-import": true,
     "no-string-based-set-immediate": true,
     "no-string-based-set-interval": true,
-    "no-suspicious-comment": true,
-    "no-typeof-undefined": true,
-    "no-unnecessary-field-initialization": true,
     "no-unnecessary-local-variable": true,
     "no-unnecessary-override": true,
     "no-unsupported-browser-code": true,
-    "no-useless-files": [false, "False positives on .vue files."],
-    "no-with-statement": true,
     "non-literal-fs-path": true,
     "non-literal-require": true,
     "possible-timing-attack": true,
-    "prefer-array-literal": true,
     "promise-must-complete": true,
     "react-a11y-accessible-headings": true,
     "react-a11y-anchors": true,
@@ -79,22 +47,11 @@
     "react-no-dangerous-html": true,
     "react-this-binding-issue": true,
     "react-unused-props-and-state": true,
-    "typedef": [
-      true,
-      "call-signature",
-      "parameter",
-      "property-declaration",
-      "member-variable-declaration"
-    ],
     "underscore-consistent-invocation": true,
     "use-named-parameter": true,
     "use-simple-attributes": true,
     "whitespace": [
       true,
-      "check-branch",
-      "check-decl",
-      "check-operator",
-      "check-separator",
       "check-type",
       "check-typecast"
     ]
