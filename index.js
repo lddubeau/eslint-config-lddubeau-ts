@@ -38,6 +38,11 @@ module.exports = {
     "no-undef": "off",
     // Duplicates a specialized TS rule.
     "no-use-before-define": "off",
+    // We want to be able to use the void statement to mark a promise
+    // whose result we ignore.
+    "no-void": ["error", {
+      allowAsStatement: true,
+    }],
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/array-type": "off",
     "@typescript-eslint/ban-types": "error",
